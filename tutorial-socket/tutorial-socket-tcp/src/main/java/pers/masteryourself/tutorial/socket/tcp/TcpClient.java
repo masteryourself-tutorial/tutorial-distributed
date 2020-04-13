@@ -21,7 +21,7 @@ public class TcpClient {
         PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
         out.println("hello");
         BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-        System.out.println("服务单响应数据：" + in.readLine());
+        System.out.println("服务端响应数据：" + in.readLine());
         in.close();
         socket.close();
     }
