@@ -15,6 +15,7 @@
     <modules>
         <module>tutorial-zookeeper-watcher</module>
         <module>tutorial-zookeeper-curator</module>
+        <module>tutorial-zookeeper-leader</module>
     </modules>
 
 </project>
